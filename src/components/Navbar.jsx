@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-center items-center">
+    <nav className="sticky flex justify-center items-center">
       <div className="flex items-center justify-between mx-auto my-2 py-2 w-[90%]">
         <div id="logo-container" className="">
           <img src="src/assets/Leadcrm_logo.png" alt="LeadCRM Logo" />

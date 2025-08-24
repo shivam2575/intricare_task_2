@@ -1,5 +1,5 @@
-import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 const NavLink = ({ label, type }) => {
   return type === "button" ? (
@@ -8,8 +8,10 @@ const NavLink = ({ label, type }) => {
     </>
   ) : (
     <>
-      <a href="">{label}</a>
-      <i></i>
+      <a href="">
+        {label}
+        <FontAwesomeIcon icon={faCaretDown} />
+      </a>
     </>
   );
 };
