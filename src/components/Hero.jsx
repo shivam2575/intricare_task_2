@@ -1,10 +1,11 @@
 import React from "react";
+import ButtonPrimary from "./common/ButtonPrimary";
 
 const Hero = () => {
   return (
     <div
       id="hero-container"
-      className="flex flex-col gap-2 items-center bg-hero-light"
+      className="flex flex-col gap-2 items-center bg-hero-light mt-10"
     >
       <div className="p-2 border border-logo-blue rounded-3xl text-logo-blue">
         <p>🚀 Stop Juggling Tabs. Start Closing Deals.</p>
@@ -40,7 +41,7 @@ const Hero = () => {
         <div className="flex items-center justify-between gap-2 p-2 bg-btn-dark rounded-lg shadow-lg">
           <div className="">
             <h2 className="text-white">
-              <span>Available in</span>
+              <span className="text-sm">Available in</span>
               <br />
               Chrome Web Store
             </h2>
@@ -53,11 +54,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="flex items-center justify-between gap-2 p-2 bg-btn-primary rounded-lg shadow-lg">
-          <div className="">
-            <h2 className="">Get Your Account Now!</h2>
-          </div>
-        </div>
+        <ButtonPrimary />
       </div>
     </div>
   );

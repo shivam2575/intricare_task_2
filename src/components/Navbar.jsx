@@ -1,5 +1,5 @@
 import React from "react";
-import NavLink from "./NavLink";
+import NavLink from "./common/NavLink";
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
         <div id="logo-container" className="">
           <img src="src/assets/Leadcrm_logo.png" alt="LeadCRM Logo" />
         </div>
-        <div className="nav-link-container flex justify-between gap-2">
+        <div className="nav-link-container flex justify-between gap-10">
           <NavLink label="Product" type="dropdown" />
           <NavLink label="Product" type="button" />
           <NavLink label="Product" type="dropdown" />

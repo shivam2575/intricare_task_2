@@ -6,4 +6,11 @@
     --color-btn-dark: #373737;
     --color-btn-primary: #b3fc6a;
     --color-hero-light: #fefdff;
+    --color-ring-green: #0c7737;
+    --animate-marquee: marquee var(--duration, 10s) linear infinite;
+
+    @keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* move by half because content is duplicated */
+  }
 }
