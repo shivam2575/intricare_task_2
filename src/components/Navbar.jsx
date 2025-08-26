@@ -6,7 +6,10 @@ const Navbar = () => {
     <nav className="sticky flex justify-center items-center">
       <div className="flex items-center justify-between mx-auto my-2 py-2 w-[90%]">
         <div id="logo-container" className="">
-          <img src="src/assets/Leadcrm_logo.png" alt="LeadCRM Logo" />
+          <img
+            src="https://www.leadcrm.io/wp-content/uploads/2024/12/LeadCRM-removebg-preview-1.webp"
+            alt="LeadCRM Logo"
+          />
         </div>
         <div className="nav-link-container flex justify-between gap-10">
           <NavLink label="Product" type="dropdown" />

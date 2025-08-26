@@ -6,55 +6,6 @@ import VSCardPositive from "./VSCardPositive";
 const BelowHero = () => {
   return (
     <div className="mt-10 flex flex-col gap-10">
-      <div
-        id="infinite-scroll"
-        className="flex items-center gap-10 p-10 overflow-hidden animate-marquee"
-      >
-        <div className="flex justify-between items-center">
-          <div className="img-container">
-            <img
-              src="https://img.leadcrm.io/wp-content/uploads/2025/07/10113540/feature-leadcrm-6.webp"
-              alt="company logo"
-            />
-          </div>
-          <div className="content-container">
-            <h2>Company Name</h2>
-          </div>
-        </div>
-        <div className="flex justify-between items-center">
-          <div className="img-container">
-            <img
-              src="https://img.leadcrm.io/wp-content/uploads/2025/07/10113540/feature-leadcrm-6.webp"
-              alt="company logo"
-            />
-          </div>
-          <div className="content-container">
-            <h2>Company Name</h2>
-          </div>
-        </div>
-        <div className="flex justify-between items-center">
-          <div className="img-container">
-            <img
-              src="https://img.leadcrm.io/wp-content/uploads/2025/07/10113540/feature-leadcrm-6.webp"
-              alt="company logo"
-            />
-          </div>
-          <div className="content-container">
-            <h2>Company Name</h2>
-          </div>
-        </div>
-        <div className="flex justify-between items-center">
-          <div className="img-container">
-            <img
-              src="https://img.leadcrm.io/wp-content/uploads/2025/07/10113540/feature-leadcrm-6.webp"
-              alt="company logo"
-            />
-          </div>
-          <div className="content-container">
-            <h2>Company Name</h2>
-          </div>
-        </div>
-      </div>
       <div className="p-2 flex justify-center items-center">
         <h2 className="font-semibold text-4xl">
           <span>

@@ -1,6 +1,6 @@
 const VSCardPositive = () => {
   return (
-    <div className="p-4 flex flex-col gap-10 shadow-lg rounded-lg ring-1 ring-white hover:ring-ring-green ease-in-out max-w-[500px]">
+    <div className="p-4 flex flex-col gap-10 shadow-lg rounded-lg ring ring-white transition-all duration-500 ease-in hover:ring-ring-green max-w-[500px]">
       <div className="">
         <img
           className="w-[459px] h-[179px]"

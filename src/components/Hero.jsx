@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonPrimary from "./common/ButtonPrimary";
+import VerticalScroll from "./VerticalScroll";
 
 const Hero = () => {
   return (
@@ -23,11 +24,9 @@ const Hero = () => {
           enrichment in one click.
         </p>
       </div>
-      <div className="p-2 rounded-lg flex justify-between gap-2 bg-gradient-to-r border border-black">
+      <div className="p-2 rounded-lg flex justify-between gap-2 bg-gradient-to-r from-blue-400 to-purple-500 text-white">
         <div className="px-2 py-4">works with</div>
-        <div className="px-2 py-4 border border-black rounded-lg">
-          📋 Google Sheets
-        </div>
+        <VerticalScroll />
         <div className="px-2 py-4">& more</div>
       </div>
       <div className="p-2">
