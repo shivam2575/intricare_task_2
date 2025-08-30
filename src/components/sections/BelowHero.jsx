@@ -1,7 +1,5 @@
-import React from "react";
-import ButtonPrimary from "./common/ButtonPrimary";
-import VSCardNegative from "./VSCardNegative";
-import VSCardPositive from "./VSCardPositive";
+import ButtonPrimary from "../common/ButtonPrimary";
+import VSCardPositive from "../VSCardPositive";
 
 const BelowHero = () => {
   return (

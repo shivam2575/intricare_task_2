@@ -1,6 +1,7 @@
-import BelowHero from "../components/BelowHero";
-import Header from "../components/Header";
+import BelowHero from "../components/sections/BelowHero";
+import Header from "../components/sections/Header";
 import HorizontalScroll from "../components/HorizontalScroll";
+import HowItWorks from "../components/sections/HowItWorks";
 
 const LandingPage = () => {
   return (
@@ -8,6 +9,7 @@ const LandingPage = () => {
       <Header />
       <HorizontalScroll />
       <BelowHero />
+      <HowItWorks />
     </>
   );
 };
