@@ -1,6 +1,6 @@
 const TestimonialCard = () => {
   return (
-    <div className="bg-test-purple rounded-lg shadow-lg m-2 flex flex-col gap-4">
+    <div className="bg-test-purple rounded-lg shadow-lg m-2 flex flex-col gap-4 p-5">
       <div className="">
         <p>
           “It’s been a really positive experience overall. I use LeadCRM to
