@@ -8,6 +8,8 @@
     --color-hero-light: #fefdff;
     --color-ring-green: #0c7737;
     --color-how-it-works: #eaeffb;
+    --color-test-purple: #f0efff;
+    --color-salesCard: #f0efff;
     --animate-marquee: marquee var(--duration, 30s) linear infinite;
     --animate-vertical-scroll: vertical-scroll var(--duration, 15s) linear infinite;
 
