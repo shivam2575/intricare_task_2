@@ -5,6 +5,8 @@ import HowItWorks from "../components/sections/HowItWorks";
 import Testimonials from "../components/sections/Testimonials";
 import LinkedInSales from "../components/sections/LinkedInSales";
 import SingleSource from "../components/sections/SingleSource";
+import RevenueEngine from "../components/sections/RevenueEngine";
+import FAQ from "../components/sections/FAQ";
 
 const LandingPage = () => {
   return (
@@ -16,6 +18,8 @@ const LandingPage = () => {
       <Testimonials />
       <LinkedInSales />
       <SingleSource />
+      <RevenueEngine />
+      <FAQ />
     </>
   );
 };
