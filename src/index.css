@@ -11,6 +11,7 @@
     --color-test-purple: #f0efff;
     --color-salesCard: #f0efff;
     --color-faq-ans: #fef1e9;
+    --color-footer: #d3eff7;
     --animate-marquee: marquee var(--duration, 30s) linear infinite;
     --animate-vertical-scroll: vertical-scroll var(--duration, 15s) linear infinite;
 

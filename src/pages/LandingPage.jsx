@@ -7,6 +7,7 @@ import LinkedInSales from "../components/sections/LinkedInSales";
 import SingleSource from "../components/sections/SingleSource";
 import RevenueEngine from "../components/sections/RevenueEngine";
 import FAQ from "../components/sections/FAQ";
+import Footer from "../components/sections/Footer";
 
 const LandingPage = () => {
   return (
@@ -20,6 +21,7 @@ const LandingPage = () => {
       <SingleSource />
       <RevenueEngine />
       <FAQ />
+      <Footer />
     </>
   );
 };
