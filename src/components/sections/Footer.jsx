@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <SectionContainer bgColor="bg-footer">
       <div className="flex flex-col gap-5">
-        <div className="upper-container">
+        <div className="upper-container flex gap-10">
           <div className="logo-container">
             <div className="">
               <img
@@ -31,7 +31,83 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          <div className="link-container"></div>
+          <div className="link-container flex gap-10">
+            <div className="">
+              <div className="">
+                <h3>Integrations</h3>
+              </div>
+              <div className="">
+                <ul>
+                  <li>Hubspot</li>
+                  <li>Hubspot</li>
+                  <li>Hubspot</li>
+                  <li>Hubspot</li>
+                  <li>Hubspot</li>
+                  <li>Hubspot</li>
+                  <li>Hubspot</li>
+                </ul>
+              </div>
+            </div>
+            <div className="">
+              <div className="">
+                <h3>Integrations</h3>
+              </div>
+              <div className="">
+                <ul>
+                  <li>Hubspot</li>
+                  <li>Hubspot</li>
+                  <li>Hubspot</li>
+                </ul>
+              </div>
+            </div>
+            <div className="flex flex-col gap-2">
+              <div className="flex gap-10 justify-between">
+                <div className="flex flex-col gap-2">
+                  <div className="">
+                    <h3>Integrations</h3>
+                  </div>
+                  <div className="">
+                    <ul>
+                      <li>Hubspot</li>
+                      <li>Hubspot</li>
+                      <li>Hubspot</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="flex flex-col gap-2">
+                  <div className="">
+                    <h3>Integrations</h3>
+                  </div>
+                  <div className="">
+                    <ul>
+                      <li>Hubspot</li>
+                      <li>Hubspot</li>
+                      <li>Hubspot</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="">
+                <div className="float-end rounded-lg w-[50%] bg-navy-blue text-white p-2 justify-center items-center">
+                  <a href="">
+                    <div className="flex gap-2">
+                      <div className="">
+                        <h4>Available in </h4>
+                        <p>Chrome</p>
+                      </div>
+                      <div className="w-[36px] h-[31px]">
+                        <img
+                          src="https://img.leadcrm.io/wp-content/uploads/2025/01/05122320/Google_Chrome_Web_Store_icon.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="copyright-container">
           <div className="">
