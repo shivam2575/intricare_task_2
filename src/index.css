@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+
+* {
+  font-family: 'Poppins',sans-serif;
+}
 @theme{
     --color-navy-blue: #1a3e62;
     --color-logo-blue: #089cd0;
@@ -24,3 +28,9 @@
     100% { transform: translateY(-50%); } /* move by half because content is duplicated */
   }
 }
+
+@layer components{
+  .vertical-gap-sm{ @apply flex flex-col gap-2; }
+}
+
+/* COMMON STYLING */
