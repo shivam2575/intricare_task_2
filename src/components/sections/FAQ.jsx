@@ -1,7 +1,7 @@
-import React from "react";
 import SectionContainer from "../common/SectionContainer";
 import SectionHeading from "../common/SectionHeading";
 import ColapsableTable from "../common/ColapsableTable";
+import { faqs } from "../../utils/faqData";
 
 const FAQ = () => {
   return (
@@ -10,7 +10,7 @@ const FAQ = () => {
         <SectionHeading center={true}>
           Frequently Asked Questions
         </SectionHeading>
-        <ColapsableTable />
+        <ColapsableTable faqs={faqs} />
       </div>
     </SectionContainer>
   );

@@ -5,13 +5,13 @@ import ButtonPrimary from "../common/ButtonPrimary";
 
 const RevenueEngine = () => {
   return (
-    <SectionContainer>
-      <div className="flex flex-col justify-center items-center gap-6">
+    <SectionContainer bgColor="bg-revenue-engine">
+      <div className="flex flex-col items-center gap-5">
         <SectionHeading center={true}>
           Turn Your LinkedIn into a Revenue Engine.
         </SectionHeading>
-        <div className="text-center p-2 w-[96%] h-96 bg-[url(https://img.leadcrm.io/wp-content/uploads/2025/07/11083207/Product-hunt-banner-image.webp)] bg-contain">
-          <h2 className="text-white font-semibold pt-5 pb-2 text-4xl">
+        <div className="text-center p-2 h-[200px] md:h-[392px] bg-[url(https://img.leadcrm.io/wp-content/uploads/2025/07/11083207/Product-hunt-banner-image.webp)] rounded-xl bg-cover">
+          <h2 className="text-white font-semibold pt-5 pb-2 text-[15px] md:text-4xl">
             Your LinkedIn Powerhouse for Smarter Lead Management
           </h2>
         </div>

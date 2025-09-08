@@ -8,7 +8,7 @@ const Footer = () => {
     <SectionContainer bgColor="bg-footer">
       <div className="flex flex-col gap-5 justify-center items-center text-center">
         <div className="upper-container md:flex gap-10">
-          <div className="vertical-gap-sm items-center logo-container">
+          <div className="vertical-gap-sm items-center mb-5 logo-container">
             <div className="">
               <img
                 src="https://www.leadcrm.io/wp-content/uploads/2024/12/LeadCRM-removebg-preview-1.webp"
@@ -22,18 +22,34 @@ const Footer = () => {
                 through better data management and enrichment.
               </p>
             </div>
-            <div className="flex gap-2">
-              <span>
-                <FontAwesomeIcon icon="fa-brands fa-facebook" />
+            <div className="flex gap-3 mt-4">
+              <span className="cursor-pointer">
+                <FontAwesomeIcon
+                  icon="fa-brands fa-facebook"
+                  size="2xl"
+                  color="#089cd0"
+                />
               </span>
-              <span>
-                <FontAwesomeIcon icon="fa-brands fa-facebook" />
+              <span className="cursor-pointer">
+                <FontAwesomeIcon
+                  icon="fa-brands fa-facebook"
+                  size="2xl"
+                  color="#089cd0"
+                />
               </span>
-              <span>
-                <FontAwesomeIcon icon="fa-brands fa-facebook" />
+              <span className="cursor-pointer">
+                <FontAwesomeIcon
+                  icon="fa-brands fa-facebook"
+                  size="2xl"
+                  color="#089cd0"
+                />
               </span>
-              <span>
-                <FontAwesomeIcon icon="fa-brands fa-facebook" />
+              <span className="cursor-pointer">
+                <FontAwesomeIcon
+                  icon="fa-brands fa-facebook"
+                  size="2xl"
+                  color="#089cd0"
+                />
               </span>
             </div>
           </div>

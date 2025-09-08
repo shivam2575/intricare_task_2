@@ -2,9 +2,12 @@
 
 
 * {
-  font-family: 'Poppins',sans-serif;
+  font-family: "Exo 2",sans-serif;
 }
 @theme{
+    --color-section-heading: #090F4E;
+    --color-section-subheading: #4d4d4d;
+    --color-revenue-engine: #eaeffa;
     --color-navy-blue: #1a3e62;
     --color-logo-blue: #089cd0;
     --color-btn-dark: #373737;

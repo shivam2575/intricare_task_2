@@ -6,7 +6,7 @@ import ButtonPrimary from "../common/ButtonPrimary";
 const SingleSource = () => {
   return (
     <SectionContainer>
-      <div className="">
+      <div className="text-center flex flex-col gap-5">
         <SectionHeading center={true}>
           Your CRM, Now the Single Source of Truth.
         </SectionHeading>
@@ -16,12 +16,21 @@ const SingleSource = () => {
           exactly where you need it, creating a perfectly organized CRM
           automatically.
         </SectionSubHeading>
-        <div className="w-[1280px] h-[530px]">
-          <img
-            className="h-full w-full"
-            src="https://img.leadcrm.io/wp-content/uploads/2025/07/11082644/leadcrm-supported-2048x848.png"
-            alt=""
-          />
+        <div className="">
+          <picture className="block w-full">
+            {/* For medium and above */}
+            <source
+              media="(min-width: 768px)"
+              srcSet="https://img.leadcrm.io/wp-content/uploads/2025/07/11082644/leadcrm-supported-2048x848.png"
+            />
+
+            {/* For small screen (default fallback) */}
+            <img
+              src="https://img.leadcrm.io/wp-content/uploads/2025/07/28075853/Your-CRM.webp"
+              alt="LeadCRM"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div className="flex justify-center">
           <ButtonPrimary />

@@ -7,7 +7,7 @@ const SectionSubHeading = ({ center = false, children }) => {
         center ? "flex justify-center items-center" : ""
       }`}
     >
-      <p>{children}</p>
+      <p className="text-section-subheading text-lg font-light">{children}</p>
     </div>
   );
 };
