@@ -24,7 +24,7 @@ const HowItWorkCard = () => {
           </div>
         </div>
       </div>
-      <div id="img-container" className="w-[306px] h-[192px]">
+      <div id="img-container" className="">
         <img
           className="w-full h-full object-contain"
           src="https://img.leadcrm.io/wp-content/uploads/2025/07/08131216/install-the-extension.webp"

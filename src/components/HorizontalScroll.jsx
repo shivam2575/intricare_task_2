@@ -3,7 +3,7 @@ import { HORIZONTAL_SCROLL } from "../utils/constants";
 
 const HorizontalScroll = () => {
   return (
-    <div className="overflow-hidden my-10 py-10 w-full flex">
+    <div className="overflow-hidden my-10 pt-10 md:py-10 w-full flex">
       <ul className="flex gap-10 animate-marquee w-max">
         {[...HORIZONTAL_SCROLL, ...HORIZONTAL_SCROLL].map((company, index) => (
           <li key={index} className="flex gap-2 w-56 items-center">
