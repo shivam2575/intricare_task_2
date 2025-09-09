@@ -2,20 +2,19 @@ import React from "react";
 import ButtonPrimary from "../common/ButtonPrimary";
 import HowItWorkCard from "../common/HowItWorkCard";
 import SectionContainer from "../common/SectionContainer";
+import SectionHeading from "../common/SectionHeading";
+import SectionSubHeading from "../common/SectionSubHeading";
 
 const HowItWorks = () => {
   return (
     <SectionContainer bgColor="bg-how-it-works">
-      <div className="flex flex-col gap-10">
-        <div id="heading" className="">
-          <h2 className="font-semibold text-4xl">How it Works</h2>
-        </div>
-        <div id="sub-heading" className="">
-          <p>
-            From setup to success in <strong>4 simple steps</strong>
-          </p>
-        </div>
-        <div id="card-container" className="flex gap-4">
+      <div className="flex flex-col gap-5">
+        <SectionHeading center={true}>How it Works</SectionHeading>
+        <SectionSubHeading center={true}>
+          From setup to success in <strong>4 simple steps</strong>
+        </SectionSubHeading>
+
+        <div id="card-container" className="vertical-gap-sm gap-5">
           <HowItWorkCard />
           <HowItWorkCard />
           <HowItWorkCard />

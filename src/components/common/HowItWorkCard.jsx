@@ -2,17 +2,22 @@ import React from "react";
 
 const HowItWorkCard = () => {
   return (
-    <div className="rounded-lg shadow-lg bg-white border border-black">
-      <div id="content-container" className="">
+    <div className="vertical-gap-md rounded-lg shadow-lg bg-white p-4 hover:ring-1 hover:ring-logo-blue transition-all duration-300 ease-in">
+      <div
+        id="content-container"
+        className="vertical-gap-sm items-center text-center"
+      >
         <div className="">
-          <span>1</span>
+          <span className="!font-['Sriracha'] font-bold text-6xl text-logo-blue">
+            1
+          </span>
         </div>
-        <div className="">
-          <div className="">
+        <div className="vertical-gap-sm">
+          <div className="text-lg text-[#090f4e] font-semibold">
             <h3>Install the Extension</h3>
           </div>
           <div className="">
-            <p>
+            <p className="text-sm text-[#4c4c4c]">
               Add LeadCRM to Chrome and connect your CRM in 2 minutes—secure and
               seamless.
             </p>

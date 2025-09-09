@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&family=Sriracha&display=swap");
 @import 'tailwindcss';
 
 
@@ -32,8 +33,12 @@
   }
 }
 
-@layer components{
-  .vertical-gap-sm{ @apply flex flex-col gap-2; }
-}
+
 
 /* COMMON STYLING */
+@layer components{
+  .vertical-gap-sm{ @apply flex flex-col gap-2; }
+  .vertical-gap-md{ @apply flex flex-col gap-5; }
+  .vertical-gap-lg{ @apply flex flex-col gap-10; }
+}
+
