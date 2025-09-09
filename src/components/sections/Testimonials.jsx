@@ -1,16 +1,15 @@
 import TestimonialCard from "../common/TestimonialCard";
 import SectionContainer from "../common/SectionContainer";
+import SectionHeading from "../common/SectionHeading";
 
 const Testimonials = () => {
   return (
     <SectionContainer>
       <div className="flex flex-col">
-        <div className="">
-          <h2 className="font-semibold text-4xl">
-            See Why Top Performers Choose LeadCRM
-          </h2>
-        </div>
-        <div id="testimonial-cont" className="flex gap-2">
+        <SectionHeading center={true}>
+          See Why Top Performers Choose LeadCRM
+        </SectionHeading>
+        <div id="testimonial-cont" className="flex flex-col gap-2">
           <TestimonialCard />
           <TestimonialCard />
           <TestimonialCard />
