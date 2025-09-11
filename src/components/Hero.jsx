@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
       id="hero-container"
-      className="text-center flex flex-col gap-2 items-center bg-gradient-to-b from-hero-light to-[#f6fafd] mt-10 pb-5"
+      className="text-center flex flex-col gap-3 md:gap-5 items-center bg-gradient-to-b from-hero-light to-[#f6fafd] mt-10 pb-5 md:pb-10"
     >
       <div className="p-2 border border-logo-blue rounded-3xl text-[#63657e]">
         <p>🚀 Stop Juggling Tabs. Start Closing Deals.</p>
@@ -24,22 +24,24 @@ const Hero = () => {
           enrichment in one click.
         </p>
       </div>
-      <div className="text-center vertical-gap-sm p-2 rounded-2xl justify-between bg-gradient-to-r from-blue-400 to-purple-500 text-white">
-        <div className="text-lg pt-2 md:px-2 md:py-4">works with</div>
+      <div className="text-center vertical-gap-sm md:flex-row p-2 md:p-4 rounded-2xl justify-between bg-gradient-to-r from-blue-400 to-purple-500 text-white">
+        <div className="text-lg md:text-xl pt-2 md:px-2 md:py-4">
+          Works with
+        </div>
         <VerticalScroll />
-        <div className="text-lg pb-2 md:px-2 md:py-4">& more</div>
+        <div className="text-lg md:text-xl pb-2 md:px-2 md:py-4">& more</div>
       </div>
-      <div className="p-2">
+      <div className="p-2 md:my-4">
         <img
           className="w-[400px] h-[40px]"
           src="https://img.leadcrm.io/wp-content/uploads/2025/07/08062823/ratings-section-1536x155.webp"
           alt=""
         />
       </div>
-      <div className="vertical-gap-md">
-        <div className="flex items-center justify-between gap-2 p-2 bg-btn-dark rounded-lg shadow-lg">
+      <div className="vertical-gap-md md:flex-row">
+        <div className="flex items-center justify-between gap-2 p-2 md:px-4 bg-btn-dark rounded-lg shadow-lg">
           <div className="">
-            <h2 className="text-white">
+            <h2 className="text-white md:text-start">
               <span className="text-sm">Available in</span>
               <br />
               Chrome Web Store

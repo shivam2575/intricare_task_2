@@ -81,9 +81,14 @@ const Navbar = () => {
             <NavLink label="Product" type="dropdown" />
           </div>
           <div className="button-container flex justify-between items-center gap-2">
-            <button className="border cursoor-pointer hover:bg-logo-blue transition-colors duration-300 hidden md:inline-block border-black px-6 py-3 m-2 bg-navy-blue text-white rounded-lg">
-              Get your free account
-            </button>
+            <div className="relative bg-navy-blue rounded-lg overflow-hidden group">
+              {/* Overlay div */}
+              <div className="absolute inset-0 bg-logo-blue z-0 translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0"></div>
+              <button className="border relative z-10 w-full h-full cursor-pointer hidden md:inline-block border-black px-6 py-3 text-white rounded-lg">
+                Get your free account
+              </button>
+            </div>
+
             <button className="border-2 border-black p-2 md:px-6 md:py-3 rounded-lg cursor-pointer hover:bg-logo-blue/20  transition-all duration-300 ease-in-out">
               <FontAwesomeIcon icon={faArrowRightToBracket} className="mr-1" />
               Login
