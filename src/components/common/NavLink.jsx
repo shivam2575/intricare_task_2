@@ -1,51 +1,28 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import DropDownMenu from "./DropDownMenu";
 
 const NavLink = ({ label, type }) => {
   const [showDrop, setShowDrop] = useState(false);
   return type === "button" ? (
     <div>
-      <a>{label}</a>
+      <a href="/">{label}</a>
     </div>
   ) : (
     <>
       <div
-        className=""
         onMouseEnter={() => setShowDrop(true)}
         onMouseLeave={() => setShowDrop(false)}
       >
-        <div className="">
-          <a href="">
+        <div>
+          <a href="/">
             {label}
-            <FontAwesomeIcon icon={faCaretDown} />
+            <FontAwesomeIcon icon={faChevronDown} className="ml-1" size="sm" />
           </a>
         </div>
 
-        <div
-          className={`border border-black rounded-lg shadow-lg ${
-            showDrop ? "" : "hidden"
-          }`}
-        >
-          <ul>
-            <li>
-              <FontAwesomeIcon icon={faCaretDown} />
-              <span>Item 1</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faCaretDown} />
-              <span>Item 1</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faCaretDown} />
-              <span>Item 1</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faCaretDown} />
-              <span>Item 1</span>
-            </li>
-          </ul>
-        </div>
+        {showDrop && <DropDownMenu />}
       </div>
     </>
   );

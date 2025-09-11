@@ -8,7 +8,7 @@ const Hero = () => {
       id="hero-container"
       className="text-center flex flex-col gap-2 items-center bg-gradient-to-b from-hero-light to-[#f6fafd] mt-10 pb-5"
     >
-      <div className="p-2 border border-logo-blue rounded-3xl text-logo-blue">
+      <div className="p-2 border border-logo-blue rounded-3xl text-[#63657e]">
         <p>🚀 Stop Juggling Tabs. Start Closing Deals.</p>
       </div>
       <div className="p-2">

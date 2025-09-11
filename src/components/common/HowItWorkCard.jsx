@@ -2,7 +2,7 @@ import React from "react";
 
 const HowItWorkCard = () => {
   return (
-    <div className="vertical-gap-md rounded-lg shadow-lg bg-white p-4 hover:ring-1 hover:ring-logo-blue transition-all duration-300 ease-in">
+    <div className="vertical-gap-md rounded-lg shadow-lg bg-white p-4 hover:ring-1 hover:ring-logo-blue transition-all duration-300 ease-in cursor-pointer">
       <div
         id="content-container"
         className="vertical-gap-sm items-center text-center"
