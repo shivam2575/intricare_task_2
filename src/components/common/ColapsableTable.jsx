@@ -17,7 +17,7 @@ const ColapsableTable = ({ faqs }) => {
             onClick={() => toggleFaq(index)}
             className="que-container flex justify-between cursor-pointer"
           >
-            <div className="cursor-pointer">{faq.question}</div>
+            <div className="cursor-pointer md:text-lg">{faq.question}</div>
             <div>
               <FontAwesomeIcon
                 icon={openIndex === index ? faSquareCaretUp : faSquareCaretDown}
