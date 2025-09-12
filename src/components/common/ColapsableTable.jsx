@@ -10,7 +10,7 @@ const ColapsableTable = ({ faqs }) => {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <div className="flex flex-col gap-5">
+    <div className="vertical-gap-md md:w-[90%] md:m-auto">
       {faqs.map((faq, index) => (
         <div key={faq.question} className="faq flex flex-col gap-2">
           <div

@@ -6,9 +6,9 @@ import { footerData } from "../../utils/footerData";
 const Footer = () => {
   return (
     <SectionContainer bgColor="bg-footer">
-      <div className="flex flex-col gap-5 justify-center items-center text-center">
+      <div className="flex flex-col gap-5 w-[90%] m-auto text-center">
         <div className="upper-container md:flex gap-10">
-          <div className="vertical-gap-sm items-center mb-5 logo-container">
+          <div className="vertical-gap-sm md:vertical-gap-md items-center mb-5 logo-container md:w-[25%] md:text-start">
             <div className="">
               <img
                 src="https://www.leadcrm.io/wp-content/uploads/2024/12/LeadCRM-removebg-preview-1.webp"
@@ -22,7 +22,7 @@ const Footer = () => {
                 through better data management and enrichment.
               </p>
             </div>
-            <div className="flex gap-3 mt-4">
+            <div className="flex gap-3 mt-4 md:w-full md:justify-between">
               <span className="cursor-pointer">
                 <FontAwesomeIcon
                   icon="fa-brands fa-facebook"
@@ -53,14 +53,15 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          <div className="link-container flex flex-col gap-5">
+          <div className="link-container vertical-gap-md md:flex-row md:w-full md:justify-evenly">
             <FooterList icon={footerData[0].icon} data={footerData[0]} />
             <FooterList icon={footerData[1].icon} data={footerData[1]} />
-            <div className="vertical-gap-sm items-center">
-              <FooterList icon={footerData[2].icon} data={footerData[2]} />
-              <FooterList icon={footerData[3].icon} data={footerData[3]} />
-
-              <div className="">
+            <div className="vertical-gap-sm items-center md:justify-between">
+              <div className=" vertical-gap-sm md:flex-row md:gap-5 md:justify-between">
+                <FooterList icon={footerData[2].icon} data={footerData[2]} />
+                <FooterList icon={footerData[3].icon} data={footerData[3]} />
+              </div>
+              <div className="md:w-full">
                 <div className="md:float-end rounded-lg md:w-[50%] bg-navy-blue text-white p-2">
                   <a href="">
                     <div className="flex gap-2">

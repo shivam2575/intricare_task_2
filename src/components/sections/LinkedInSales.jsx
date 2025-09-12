@@ -11,7 +11,7 @@ const LinkedInSales = () => {
   };
   return (
     <SectionContainer>
-      <div className="p-2 flex flex-col">
+      <div className="p-2 flex flex-col gap-5">
         <SectionHeading center={true}>
           Complete LinkedIn Sales Solutions
         </SectionHeading>
@@ -19,8 +19,8 @@ const LinkedInSales = () => {
           Everything you need for professional LinkedIn prospecting
         </SectionSubHeading>
         <div className="">
-          <div className="">
-            <ul className="flex flex-col items-center md:gap-10">
+          <div className="shadow-lg">
+            <ul className="flex flex-col items-center md:flex-row md:gap-10 md:justify-evenly ">
               {salesTab &&
                 salesTab.map((tab, index) => (
                   <li
@@ -31,18 +31,20 @@ const LinkedInSales = () => {
                     }`}
                   >
                     <img className="h-8 w-8 mr-2" src={tab.url} alt="" />
-                    <h3 className="text-sm font-semibold">{tab.heading}</h3>
+                    <h3 className="text-sm md:text-lg font-semibold">
+                      {tab.heading}
+                    </h3>
                   </li>
                 ))}
             </ul>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <div className="">
-              <h2 className="text-section-subheading font-light">
+              <h2 className="text-section-subheading font-light md:text-lg md:my-2">
                 It’s hard to find the accurate contact data for every prospects.{" "}
               </h2>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="vertical-gap-md md:flex-row">
               <SalesCard />
               <SalesCard />
             </div>
