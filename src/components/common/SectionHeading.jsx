@@ -1,7 +1,7 @@
 const SectionHeading = ({ center = false, children }) => {
   return (
     <div
-      className={`p-2 ${
+      className={`p-2 md:px-0 ${
         center ? "flex justify-center items-center text-center" : ""
       }`}
     >

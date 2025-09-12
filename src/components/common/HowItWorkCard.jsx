@@ -5,19 +5,19 @@ const HowItWorkCard = () => {
     <div className="vertical-gap-md rounded-lg shadow-lg bg-white p-4 hover:ring-1 hover:ring-logo-blue transition-all duration-300 ease-in cursor-pointer">
       <div
         id="content-container"
-        className="vertical-gap-sm items-center text-center"
+        className="vertical-gap-sm md:gap-5 items-center text-center"
       >
         <div className="">
-          <span className="!font-['Sriracha'] font-bold text-6xl text-logo-blue">
+          <span className="!font-['Sriracha'] font-bold text-6xl md:text-[100px] text-logo-blue">
             1
           </span>
         </div>
-        <div className="vertical-gap-sm">
-          <div className="text-lg text-[#090f4e] font-semibold">
+        <div className="vertical-gap-sm md:gap-5">
+          <div className="text-lg md:text-xl text-[#090f4e] font-semibold">
             <h3>Install the Extension</h3>
           </div>
           <div className="">
-            <p className="text-sm text-[#4c4c4c]">
+            <p className="text-sm md:text-[16px] text-[#4c4c4c]">
               Add LeadCRM to Chrome and connect your CRM in 2 minutes—secure and
               seamless.
             </p>
